@@ -1,0 +1,33 @@
+{
+  "name": "spika-server",
+  "version": "0.0.1",
+  "author": "Clover Studio Ltd",
+  "description": "Spika-server is opensource messenger microservice",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "async": "^3.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "fs-extra": "^9.0.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.8",
+    "node-observer": "^0.4.4",
+    "request": "^2.88.2",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "eslint": "^7.16.0",
+    "gulp": "^4.0.2",
+    "gulp-apidoc": "^0.2.8",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-jsdoc3": "^3.0.0"
+  },
+  "scripts": {
+    "apidoc": "npx gulp",
+    "start": "node src/main.js"
+  }
+}
